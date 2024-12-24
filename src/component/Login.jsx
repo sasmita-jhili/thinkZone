@@ -24,8 +24,8 @@ const [rsedata,setrsedata] =useState([])
       );
       if(response.status === 200){
         localStorage.setItem('login',true);
-        localStorage.setItem('user',response.data.resData[0].userName);        
-        alert("user loggedin succesfully")
+        localStorage.setItem('user',response.data.resData[0].userName);     
+        alert("user login succesfully")
         navigate("/home")
         }
         

@@ -20,7 +20,7 @@ const NotFound = () => {
           We're fairly sure that page used to be here, but it seems to have gone
           missing. We do apologize on its behalf.
         </p>
-        <button onClick={handleRedirectHome}>Home</button>
+        <button onClick={handleRedirectHome}>Back</button>
       </div>
     </div>
   );
